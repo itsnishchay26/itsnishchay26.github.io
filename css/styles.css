@@ -1,0 +1,248 @@
+body
+{
+    margin: 0;
+    text-align: center;
+    color: #40514E;
+}
+
+/* rem is more preffered coz of the dynamism of the web page if somebody wants to see the larger text */
+
+h1
+{
+    margin: 0;
+    font-size: 4rem;
+    /* font-family: 'Oleo Script', cursive; */
+    /* font-family: 'Square Peg', cursive; */
+    font-family: 'Courgette', cursive;
+    /* font-family: 'Fascinate', cursive;   */
+    padding-top: 0.1px;
+    color: #66BFBF;
+    /* line-height: 2; */
+}
+
+h2{
+    font-size: 2rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3
+{
+    color: #11999E;
+}
+a
+{
+    text-decoration: none;
+    padding: 20px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p
+{
+    /* line-height: 2; */
+}
+
+hr
+{
+    border : dotted #dee7e7 7px;
+    border-bottom: none;
+    width: 4%;
+    margin: 70px auto;
+    /* margin: auto; */
+
+}
+
+.footer-link
+{
+    color: #11999E;
+}
+div
+{
+    /* background-color: #F6E3C5; */
+    
+}
+
+.my_para
+{
+    /* font-family: 'Fascinate', cursive; */
+    font-family: 'Passion One', cursive;
+}
+.top_container
+{
+    margin:0;
+    height: 200px;
+    width: 200 px;
+    background-color: #BDF2D5;
+    /* border: solid black 10px; */
+    padding : 200px;
+    /* margin : 20px; */
+    position: relative;
+    margin: 0px 0px 50px 0px;
+}
+
+.middle_container
+{
+     height: 200px; 
+    width: 200 px;
+    background-color: aquamarine; 
+    margin: 100px 0;
+    /* padding: 25px 0; */
+}
+
+.bottom_container
+{
+    height: 200px;
+    width: 200 px;
+    background-color: blueviolet;
+}
+
+.pro 
+{
+    /* text-decoration: underline; */
+    
+    /* visibility: hidden; */
+    
+}
+
+.intro
+{
+    width: 30%;
+    margin: auto;
+}
+
+.front_end
+{
+    /* text-decoration: underline; */
+    font-weight: normal;
+}
+
+
+/* position property relative will change the position of the image wrt top bottom left right */
+/* can help us in how we arrange or set the picture */
+
+/* absolute position means adding margin to the parent element ie if left:10 px then img will go 10px to the left
+relative position means addding margin relative to the parent element i.e. if left:10px then img will go 10px to the right */
+
+/* fixed position can be used where we want to pivot the element which on scrolling down or up remains on the same position */
+/* just like the options in the navigation bar */
+ .mountain
+{
+    position: relative;
+    /* top: 250px; */
+    left:35px;
+    /* right: 500px; */
+    /* right: 200px; */
+    height: 300px;
+    bottom: 40px;
+    height:250px;
+} 
+
+.first_cloud
+{
+    position: absolute;
+    top: 100px;
+     left: 350px;
+    bottom: 300px;
+    right: 1500px; 
+
+}
+
+.second_cloud
+{
+    position: absolute;
+    right: 190 px;
+    top:100px;
+    bottom: 3000px;
+}
+
+.profile_pic
+{
+    width: 200px;
+    height: 200px;
+}
+
+
+/* clear is the opposite of float */
+.skills_pic
+{
+    width: 25%;
+    /* height: 200px; */
+    float:left;
+    margin-right: 30px;
+    line-height: 2;
+}
+
+.skill-row
+{
+    width:45%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    /* line-height: 2; */
+    /* float: left; */
+}
+
+.awards-row
+{   
+    width:45%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.contact_message 
+{
+    /* top left right bottom */
+     margin: 0px auto 60px;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 88px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  .bottom-container
+  {
+    /* margin-top: 10px; */
+    background-color: #66BFBF;
+    padding: 30px 0px;
+    margin-top: 50px;
+
+  }
+  .footer-link
+  {
+    margin: 0px auto 60px;
+    
+
+  }
+
+  .copyright
+  {
+    padding:20px 0;
+    color: #EAF6F6;
+    font-size: 0.9rem;
+  }
+
+  a:hover
+  {
+    color: #ffffff
+  }
